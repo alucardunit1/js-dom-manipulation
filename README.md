@@ -8,7 +8,7 @@ This exercise introduces **JavaScript DOM Manipulation**, allowing you to dynami
 ## Project Files  
 
 - **`index.html`** – A simple webpage with buttons, headers, paragraphs, images, and divs.  
-- **`script.js`** – Contains 10 JavaScript exercises where you can create functions to modify the HTML page.  
+- **`exercises.js`** – Contains 10 JavaScript exercises where you can create functions to modify the HTML page.  
 - **`challenge.js`** – An extra challenge for you to apply your knowledge beyond the exercises (will require a google or two).  
 
 ---
