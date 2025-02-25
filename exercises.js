@@ -41,11 +41,16 @@ function changeTextColor() {
 
 // 7. Create a function called hideParagraph that hides the paragraph when a button is clicked.
 // Add this function to the onclick attribute of a button in index.html: <button onclick="hideParagraph()">Hide Paragraph</button>
-
+function hideparagraph() {
+    let psel = document.getElementById("intro");
+    psel.innerHTML = "";
+}
 
 // 8. Create a function called changeLink that changes the link URL to "https://www.google.com" and updates its text to "Go to Google" when a button is clicked.
 // Add this function to the onclick attribute of a button in index.html: <button onclick="changeLink()">Change Link</button>
-
+function changeLink() {
+    document.getElementById("myLink").href ="https://www.google.com";
+}
 
 // 9. Create a function called changeImage that changes the image source to "newimage.jpg" when a button is clicked.
 // Add this function to the onclick attribute of a button in index.html: <button onclick="changeImage()">Change Image</button>
