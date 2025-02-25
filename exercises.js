@@ -34,7 +34,10 @@ function changeParagraph() {
 
 // 6. Create a function called changeTextColor that changes the text color of the heading when a button is clicked.
 // Add this function to the onclick attribute of a button in index.html: <button onclick="changeTextColor()">Change Text Color</button>
-
+function changeTextColor() {
+    let tcolor = document.getElementById("intro");
+    tcolor.style.color = "orange";
+}
 
 // 7. Create a function called hideParagraph that hides the paragraph when a button is clicked.
 // Add this function to the onclick attribute of a button in index.html: <button onclick="hideParagraph()">Hide Paragraph</button>
